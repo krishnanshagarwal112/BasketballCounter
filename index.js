@@ -28,6 +28,8 @@ for(let i = 0; i < 3; i++){
 
 
 cleartBtn.addEventListener("click",function(){
+    count1 = 0;
+    count2 = 0;
     home.textContent = 0;
     guest.textContent = 0;
 })
